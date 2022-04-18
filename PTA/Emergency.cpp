@@ -13,6 +13,8 @@ int st[N];
 
 void dij(){
 
+
+
     memset(dist,0x3f,sizeof dist);
 
     dist[start]=0;
