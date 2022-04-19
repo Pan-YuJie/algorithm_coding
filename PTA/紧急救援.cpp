@@ -71,11 +71,11 @@ int main()
 
     int cur_x=d;
     while(1){
-        sta.push(cur_x);
-        i
-        cf(cur_x==s){
+        sta.push(cur_x);        
+        if(cur_x==s){
             break;
-        }ur_x=pre[cur_x];
+        }
+        cur_x=pre[cur_x];
     }
 
     while(sta.size()){
