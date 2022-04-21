@@ -8,7 +8,7 @@ int st[N];
 int n,m;
 int c1,c2;
 
-void Dijkstra()
+int Dijkstra()
 {
   memset(dis,0x3f,sizeof dis);  
    dis[c1] = 0;
