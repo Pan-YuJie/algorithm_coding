@@ -3,5 +3,9 @@
     "files.associations": {
         "*.tcc": "cpp",
         "ostream": "cpp"
-    }
+    },
+    "c-cpp-compile-run.run-in-external-terminal": true,//是否为外置控制台输出
+    "code-runner.runInTerminal": true       //运行在终端
+
+    
 }
