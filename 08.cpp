@@ -5,8 +5,12 @@ using namespace std;
 int main()
 {
     
+
+
     long long t;
     cin>>t;
+
+
 
     long long cntcong=0;
     long long cntben=0;
@@ -24,7 +28,9 @@ int main()
         if(flag){
             xiu--;
         }
-
+        int dx[6] = {-1, 0, 1, 0, 0, 0};
+        int dy[6] = {0, 1, 0, -1, 0, 0};
+        int dz[6] = {0, 0, 0, 0, 1, -1};
         if(xiu==0 && flag){
             flag=0;
             xiu=0;
